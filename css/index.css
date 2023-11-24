@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container{
+  background-image: linear-gradient(115deg, rgb(101 51 30 / 84%), rgb(95 83 65 / 70%)), url(https://img.freepik.com/free-vector/top-view-cup-coffee-with-roasted-beans_52683-32340.jpg?w=1380&t=st=1700789841~exp=1700790441~hmac=8c6505d…);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  overflow: auto;
+
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 1rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+form{
+  background-color: rgba(245, 245, 220, 0.538);
+  backdrop-filter: blur(8px);
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  padding: 2rem 1rem;
+  border-radius: 5px;
+}
+
+.fill-group{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.label{
+  width: 100%;
+}
+
+
+#title, #description{
+  text-align: center;
+  font-style: italic;
+  color: #EEEDEB;
+}
+
+.label, .question {
+  font-size: 18px;
+  color: #4B4033;
+}
+
+input{
+  display: flex;
+  border: none;
+  padding: 0.5rem 0.25rem;
+  outline: none;
+  background-color: #dbd3cf;
+  color: #4B4033;
+  border-radius: 3px;
+  margin-right: 0.15rem;
+}
+
+select{
+  border: none;
+  padding: 0.5rem 0.25rem;
+  outline: none;
+  background-color: #dbd3cf;
+  color: #4B4033;
+  border-radius: 3px;
+}
+
+label{
+  color: #4B4033;
+  /* color: #EEEDEB; */
+  display: flex;
+  align-items: center;
+}
+
+textarea{
+  display: flex;
+  border: none;
+  outline: none;
+  background-color: #dbd3cf;
+  padding: 0.5rem 0.25rem;
+  border-radius: 3px;
+  margin-right: 0.15rem;
+  color: #4B4033;
+  resize: none;
+}
+
+#submit {
+  background-color: #4E3829;
+  border: 2px solid #4E3829;
+  color: #EEEDEB;
+  padding: 0.5rem 0;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+#submit:hover{
+  background-color: #DBD3CF;
+  color: #4B4033;
+}
